@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/main.css" />
   <link rel="stylesheet" href="css/nav.css" />
   <link rel="stylesheet" href="css/forms.css" />
+  <link rel="stylesheet" href="css/data-processing.css" />
  </head>
  <body>
      <header>
@@ -19,14 +20,15 @@
      </header> 
   
    <main class="wrapper">
+       <div id="output">Output goes here</div>
     <form method="get" action="" class="main-form">
         <div>
-            <label for="FirstName">First Name</label>: <br />
-            <input type="text" name="FirstName" id="FirstName" placeholder="First Name" required="required" autofocus />
+            <label for="First_Name">First Name</label>: <br />
+            <input type="text" name="First_Name" id="First_Name" placeholder="First Name" required="required" autofocus />
         </div>
         <div>
-            <label for="LastName">Last Name</label>: <br />
-            <input type="text" name="LastName" id="LastName" placeholder="Last Name" required="required"  />
+            <label for="Last_Name">Last Name</label>: <br />
+            <input type="text" name="Last_Name" id="Last_Name" placeholder="Last Name" required="required"  />
         </div>
         <div>
             <label for="Email">Email</label>: <br />
@@ -49,18 +51,18 @@
         <div>
             <fieldset>
                     <legend>Would you like to join our mailing list?</legend>
-                   <label><input type="radio" name="JoinMailingList" value="Yes" required="required"/> Yes</label><br />
-                    <label><input type="radio" name="JoinMailingList" value="No" /> No</label>
+                   <label><input type="radio" name="Join_Mailing_List" value="Yes" required="required"/> Yes</label><br />
+                    <label><input type="radio" name="Join_Mailing_List" value="No" /> No</label>
             </fieldset>
         </div>
         
         <div>
             <fieldset>
                     <legend>Interested In?</legend>
-                   <label><input type="checkbox" name="InterestedIn" value="Website" /> Website</label><br />
-                    <label><input type="checkbox" name="InterestedIn" value="OnlineCalendar" /> Online Calendar</label><br />
-                    <label><input type="checkbox" name="InterestedIn" value="ContactForm" /> Contact Form</label><br />
-                    <label><input type="checkbox" name="InterestedIn" value="Lollipops" /> Complimentary Lollipops</label>
+                   <label><input type="checkbox" name="Interested_In" value="Website" /> Website</label><br />
+                    <label><input type="checkbox" name="Interested_In" value="OnlineCalendar" /> Online Calendar</label><br />
+                    <label><input type="checkbox" name="Interested_In" value="ContactForm" /> Contact Form</label><br />
+                    <label><input type="checkbox" name="Interested_In" value="Lollipops" /> Complimentary Lollipops</label>
             </fieldset>
         </div>
 
@@ -81,6 +83,7 @@
 	 </p>
     </footer>
   </main>
- <script src="js/main.js"></script>    
+<script src="js/data-processing.js"></script> 
+<script src="js/main.js"></script>    
  </body>
 </html>
