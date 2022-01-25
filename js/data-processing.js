@@ -18,6 +18,14 @@ if(queryString != ""){//process data
       //https://stackoverflow.com/questions/542232/in-javascript-how-can-i-perform-a-global-replace-on-string-with-a-variable-insi
       //will replace underscore with spaces
 
+  /* function titleCase(myData){
+    let step1 = myData(' ');
+    let step2 = step1.map(word => word.charAt(0).toUpperCase() + word.substr(1).toLowerCase());
+    ;
+
+    console.log(step2);*/
+  }
+
 
       if(key=="Cart"){//Process cart
          switch(value){
