@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
-     <title>Form Template</title>
+     <title>Data Processing</title>
   <meta charset="utf-8" />
   <meta name="robots" content="noindex,nofollow" />
   <meta name="viewport" content="width=device-width" />
@@ -12,7 +12,7 @@
  </head>
  <body>
      <header>
-     <h1>Form Template</h1>
+     <h1>Data Processing</h1>
         <nav class="topnav" id="myTopnav">
             <a href="index.html" class="active">Home</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
@@ -20,8 +20,34 @@
      </header> 
   
    <main class="wrapper">
-       <div id="output">Output goes here</div>
+    <div id="output">
     <form method="get" action="" class="main-form">
+        <h3>Buy A Widget</h3>
+        <div id="widgets">
+    <div>
+        <b>Widget</b><br />
+        <p>Our Widgets are spring loaded and need no batteries!</p>
+        <p>At $3.99 they're a bargain!</p>
+        <p><label><input type="checkbox" name="Cart" value="Widget" /> Add to Cart</label></p>
+        <div class="pic"><img src="images/widget.png" /></div>
+    </div>
+    <div>
+        <b>Sprocket</b><br />
+        <p>Our Sprockets are well made and hold up to extreme pressure!</p>
+        <p>They only cost $5.99!</p>
+        <p><label><input type="checkbox" name="Cart" value="Sprocket" /> Add to Cart</label></p>
+        <div class="pic"><img src="images/sprocket.png" /></div>
+    </div>
+    <div>
+        <b>Thingy</b><br />
+        <p>Our Thingys have many uses, and people love them!</p>
+        <p>Such a deal at $1.99!</p>
+        <p><label><input type="checkbox" name="Cart" value="Thingy" /> Add to Cart</label></p>
+        <div class="pic"><img src="images/thingy.png" /></div>
+    </div>
+</div>
+
+        <h3>Shipping Information</h3>
         <div>
             <label for="First_Name">First Name</label>: <br />
             <input type="text" name="First_Name" id="First_Name" placeholder="First Name" required="required" autofocus />
@@ -75,6 +101,7 @@
             <input type="submit" value="Submit it!" />
         </div>
     </form>
+</div>
      <footer>
     <p><small>&copy; 2020-<small id="copyright"></small> by
 			Rachel Boursia, All Rights Reserved ~
