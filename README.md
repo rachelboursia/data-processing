@@ -1,5 +1,5 @@
-# portal
+# Data Processing
 
-An example portal page
+This page demonstrates data processing of query string data using client side JavaScript.
+Upon submission, the cart items are totaled and title case is applied to the Shipping Info.
 
-Please feel free to use the HMTL/CSS and JS in this repo as you wish!
